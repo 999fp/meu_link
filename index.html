@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Links</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: #000000;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 360px;
+      background: #121212;
+      padding: 24px 20px;
+      border-radius: 16px;
+      border: 1px solid #27272a;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 12px;
+      border: 2px solid #27272a;
+    }
+
+    h1 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 0.85rem;
+      color: #a1a1aa;
+      margin-bottom: 20px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .btn {
+      display: block;
+      padding: 12px 16px;
+      background-color: #27272a;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+
+    .btn:hover {
+      background-color: #3f3f46;
+    }
+
+    .btn:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Link direto da sua foto hospedada no ImgBB -->
+    <img src="https://i.ibb.co/fVyD1vSx/Whats-App-Image-2026-10-06-at-17-58-19.jpg" alt="Foto de Perfil" class="profile-img">
+
+    <h1>Felipe Braga</h1>
+    <p>Entre em contato direto comigo 👇</p>
+
+    <div class="links">
+      <!-- Link direto do seu WhatsApp -->
+      <a href="https://wa.me/5564996756184?text=Fale%20Felipe%2C%20me%20ensina%20a%20faturar%20com%20a%20internet....." target="_blank" class="btn">APRENDA COMIGO!</a>
+    </div>
+  </div>
+
+</body>
+</html>
